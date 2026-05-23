@@ -1,11 +1,359 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>mod30-residue-lanes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Notebook 29 — Sparse Feature Emergence at the Reset Boundary</title>
+
+  <meta name="description" content="Lab report exploring sparse feature emergence across the mod30 reset boundary: 23 → 29 → 01.">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+      color: #111;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    h1, h2, h3 {
+      line-height: 1.2;
+    }
+
+    h1 {
+      font-size: 2.4rem;
+      margin-bottom: 0.5rem;
+    }
+
+    h2 {
+      margin-top: 3rem;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 0.5rem;
+    }
+
+    code, pre {
+      background: #eaeaea;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+
+    pre {
+      padding: 16px;
+      overflow-x: auto;
+    }
+
+    .hero {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    .hero img {
+      width: 100%;
+      max-width: 900px;
+      border-radius: 12px;
+    }
+
+    .figure {
+      margin: 3rem 0;
+    }
+
+    .figure img {
+      width: 100%;
+      border-radius: 12px;
+    }
+
+    .caption {
+      margin-top: 0.75rem;
+      color: #444;
+      font-size: 0.95rem;
+    }
+
+    .repo-link {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 12px 18px;
+      background: #111;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 2rem 0;
+      background: white;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 12px;
+      text-align: left;
+    }
+
+    th {
+      background: #eee;
+    }
+
+    footer {
+      margin-top: 5rem;
+      padding-top: 2rem;
+      border-top: 2px solid #ddd;
+      color: #555;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>mod30-residue-lanes</h1>
-  <p>Residue Manifold Learning over constrained mod30 residue lanes.</p>
+
+<main>
+
+  <section class="hero">
+    <h1>Notebook 29 — Sparse Feature Emergence at the Reset Boundary</h1>
+
+    <p>
+      Sparse emergence analysis across the modulo-30 reset manifold:
+    </p>
+
+<pre>
+23 → 29 → 01
+</pre>
+
+    <a class="repo-link"
+       href="https://github.com/thinkthoughts/residue-manifold-learning"
+       target="_blank">
+      View Repository
+    </a>
+  </section>
+
+  <section>
+    <h2>Overview</h2>
+
+    <p>
+      Notebook 29 studies sparse feature emergence near the modulo-30 reset boundary.
+    </p>
+
+    <p>
+      Instead of treating residue lanes as isolated categories,
+      the notebook models:
+    </p>
+
+<pre>
+23 → 29 → 01
+</pre>
+
+    <p>
+      as a cyclic transition manifold where sparse activations,
+      local pressure changes,
+      and reset-boundary dynamics accumulate over rolling windows.
+    </p>
+
+    <p>
+      The resulting framework provides a lightweight emergence-monitoring pipeline using:
+    </p>
+
+    <ul>
+      <li>rolling residue statistics,</li>
+      <li>sparse feature transforms,</li>
+      <li>boundary-pressure metrics,</li>
+      <li>and temporal event detection.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Core Features</h2>
+
+    <table>
+      <tr>
+        <th>Feature</th>
+        <th>Description</th>
+      </tr>
+
+      <tr>
+        <td>23, 29, 01</td>
+        <td>Rolling residue counts near reset boundary</td>
+      </tr>
+
+      <tr>
+        <td>gap_23_29</td>
+        <td>Transition spacing between 23 and 29</td>
+      </tr>
+
+      <tr>
+        <td>gap_29_01</td>
+        <td>Reset spacing across modulo rollover</td>
+      </tr>
+
+      <tr>
+        <td>reset_pressure</td>
+        <td>Boundary imbalance metric</td>
+      </tr>
+
+      <tr>
+        <td>boundary_pressure</td>
+        <td>Amplified local transition intensity</td>
+      </tr>
+
+      <tr>
+        <td>z_* features</td>
+        <td>Normalized sparse-event indicators</td>
+      </tr>
+    </table>
+  </section>
+
+  <section class="figure">
+    <h2>Reset Boundary Graph</h2>
+
+    <img
+      src="notebook29_reset_boundary_graph.png"
+      alt="Graph showing the reset boundary transition between residue lanes 23, 29, and 01."
+    >
+
+    <div class="caption">
+      Minimal reset-boundary geometry:
+      <code>23 → 29 → 01</code>
+    </div>
+  </section>
+
+  <section class="figure">
+    <h2>Sparse Feature Heatmap</h2>
+
+    <img
+      src="notebook29_sparse_feature_heatmap.png"
+      alt="Heatmap of sparse feature activations across rolling windows and reset-boundary derived features."
+    >
+
+    <div class="caption">
+      Sparse activations cluster across coupled reset-boundary features.
+    </div>
+  </section>
+
+  <section class="figure">
+    <h2>Reset Pressure</h2>
+
+    <img
+      src="notebook29_reset_pressure.png"
+      alt="Time-series plot showing reset pressure fluctuations across rolling windows."
+    >
+
+    <div class="caption">
+      Rolling reset-pressure dynamics across the sparse boundary manifold.
+    </div>
+  </section>
+
+  <section class="figure">
+    <h2>Sparse Event Timeline</h2>
+
+    <img
+      src="notebook29_sparse_event_timeline.png"
+      alt="Timeline of sparse emergence events detected across rolling windows."
+    >
+
+    <div class="caption">
+      Sparse emergence events cluster into localized temporal regions.
+    </div>
+  </section>
+
+  <section class="figure">
+    <h2>Reset State Counts</h2>
+
+    <img
+      src="notebook29_reset_state_counts.png"
+      alt="Bar chart showing counts of balanced and lane-leading reset states."
+    >
+
+    <div class="caption">
+      Balanced states dominate while sparse transition states remain detectable.
+    </div>
+  </section>
+
+  <section class="figure">
+    <h2>Reset Boundary Lane Counts</h2>
+
+    <img
+      src="notebook29_reset_lane_counts.png"
+      alt="Rolling residue counts for lanes 23, 29, and 01."
+    >
+
+    <div class="caption">
+      Rolling lane populations near the modulo-30 reset boundary.
+    </div>
+  </section>
+
+  <section>
+    <h2>Interpretation</h2>
+
+    <p>
+      Sparse emergence does not appear uniformly random.
+    </p>
+
+    <p>
+      Instead, reset-boundary transitions exhibit:
+    </p>
+
+    <ul>
+      <li>localized activation clustering,</li>
+      <li>coherent pressure spikes,</li>
+      <li>cross-feature coupling,</li>
+      <li>and stable baseline regions interrupted by sparse transition bursts.</li>
+    </ul>
+
+    <p>
+      This suggests that lightweight residue-manifold monitoring may already contain useful emergence signals before large-scale latent modeling.
+    </p>
+  </section>
+
+  <section>
+    <h2>Relationship to Earlier Notebooks</h2>
+
+    <p>
+      Notebook 23 established:
+    </p>
+
+    <ul>
+      <li>graph Laplacians,</li>
+      <li>spectral embeddings,</li>
+      <li>lane-correlation structure,</li>
+      <li>and manifold connectivity.</li>
+    </ul>
+
+    <p>
+      Notebook 29 extends this into:
+    </p>
+
+    <ul>
+      <li>sparse activation structure,</li>
+      <li>transition-state monitoring,</li>
+      <li>reset-boundary pressure tracking,</li>
+      <li>and temporal emergence analysis.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>
+      Residue Manifold Learning (RML) — mod30 transition structure,
+      sparse emergence analysis,
+      and constraint-guided coherence monitoring.
+    </p>
+
+    <p>
+      Repository:
+      <a href="https://github.com/thinkthoughts/residue-manifold-learning">
+        github.com/thinkthoughts/residue-manifold-learning
+      </a>
+    </p>
+  </footer>
+
+</main>
+
 </body>
 </html>
