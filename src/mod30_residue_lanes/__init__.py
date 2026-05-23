@@ -1,3 +1,9 @@
 """Mod30 Residue Lanes (MRL)."""
 
-ADMISSIBLE_RESIDUES = [1, 7, 11, 13, 17, 19, 23, 29]
+from .residues import (
+    ADMISSIBLE_RESIDUES,
+    residue_lane,
+    admissible_mod30,
+)
+
+from .lanes import partition_by_lane
