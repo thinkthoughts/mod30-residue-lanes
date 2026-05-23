@@ -8,16 +8,16 @@ Notebook 29 studies sparse transition behavior near the modulo-30 reset boundary
 
 ## Generated outputs
 
-- Feature matrix CSV: `results/notebook29_reset_feature_matrix.csv`
-- Sparse events CSV: `results/notebook29_sparse_events.csv`
-- Reset state counts CSV: `results/notebook29_reset_state_counts.csv`
-- Summary JSON: `results/notebook29_reset_summary.json`
-- Figure: `figures/notebook29_reset_lane_counts.png`
-- Figure: `figures/notebook29_reset_pressure.png`
-- Figure: `figures/notebook29_sparse_feature_heatmap.png`
-- Figure: `figures/notebook29_sparse_event_timeline.png`
-- Figure: `figures/notebook29_reset_state_counts.png`
-- Figure: `figures/notebook29_reset_boundary_graph.png`
+- Feature matrix CSV: <a href="../results/notebook29_reset_feature_matrix.csv">`results/notebook29_reset_feature_matrix.csv`</a>
+- Sparse events CSV: <a href="../results/notebook29_sparse_events.csv">`results/notebook29_sparse_events.csv`</a>
+- Reset state counts CSV: <a href="../results/notebook29_reset_state_counts.csv">`results/notebook29_reset_state_counts.csv`</a>
+- Summary JSON: <a href="../results/notebook29_reset_summary.json">`results/notebook29_reset_summary.json`</a>
+- Figure: <a href="../figures/notebook29_reset_lane_counts.png">`figures/notebook29_reset_lane_counts.png`</a>
+- Figure: <a href="../figures/notebook29_reset_pressure.png">`figures/notebook29_reset_pressure.png`</a>
+- Figure: <a href="../figures/notebook29_sparse_feature_heatmap.png">`figures/notebook29_sparse_feature_heatmap.png`</a>
+- Figure: <a href="../figures/notebook29_sparse_event_timeline.png">`figures/notebook29_sparse_event_timeline.png`</a>
+- Figure: <a href="../figures/notebook29_reset_state_counts.png">`figures/notebook29_reset_state_counts.png`</a>
+- Figure: <a href="../figures/notebook29_reset_boundary_graph.png">`figures/notebook29_reset_boundary_graph.png`</a>
 
 ## Summary
 
