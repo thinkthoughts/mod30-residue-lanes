@@ -2,6 +2,8 @@
 
 Notebook 07 introduces the first asymmetry after Notebook 01 established the symmetric modulo-30 baseline.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/thinkthoughts/mod30-residue-lanes/blob/main/notebooks/07_lane_residue_7.ipynb)
+
 Constraint view:
 
 > Prime filtering breaks perfect admissible-lane symmetry and reveals lane-local structure beyond the modulo-30 substrate.
