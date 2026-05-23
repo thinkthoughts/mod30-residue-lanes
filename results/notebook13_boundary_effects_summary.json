@@ -1,0 +1,48 @@
+{
+  "repo": "mod30-residue-lanes",
+  "notebook": "13_lane_residue_13",
+  "title": "Boundary Effects: Pre-15 Prime-Lane Pressure",
+  "modulus": 30,
+  "target_lane": 13,
+  "target_lane_label": "13",
+  "reflected_lane": 17,
+  "reflected_lane_label": "17",
+  "admissible_residues": [
+    1,
+    7,
+    11,
+    13,
+    17,
+    19,
+    23,
+    29
+  ],
+  "pre_boundary_lanes": [
+    1,
+    7,
+    11,
+    13
+  ],
+  "post_boundary_lanes": [
+    17,
+    19,
+    23,
+    29
+  ],
+  "n_max": 90000,
+  "window_size": 3000,
+  "step_size": 300,
+  "rolling_windows": 291,
+  "admissible_prime_values": 8710,
+  "lane13_prime_values": 1093,
+  "lane17_prime_values": 1097,
+  "mean_boundary_imbalance": -0.05154639175257732,
+  "mean_boundary_abs_imbalance": 7.041237113402062,
+  "mean_boundary_pressure": 0.02479425117814536,
+  "mean_reflection_gap_13_17": -0.15807560137457044,
+  "mean_reflection_abs_gap_13_17": 3.6357388316151202,
+  "mean_reflection_pressure": 0.05131537216371001,
+  "mean_euclidean_drift": 5.2442704596281295,
+  "max_euclidean_drift": 10.862780491200215,
+  "constraint_view": "Lane 13 marks a pre-15 boundary position where rolling prime-lane trajectories can be compared against reflected post-15 behavior."
+}

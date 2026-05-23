@@ -1,0 +1,2 @@
+lane_a,lane_b,cosine_similarity,pearson_correlation,mean_lane13_count,mean_lane17_count,mean_reflection_gap_13_17,mean_reflection_abs_gap_13_17,mean_reflection_pressure
+13,17,0.992264423456644,0.5208546902112878,36.07216494845361,36.23024054982818,-0.15807560137457044,3.6357388316151202,0.05131537216371001
