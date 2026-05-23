@@ -2,6 +2,8 @@
 
 Notebook 11 introduces rolling window drift after Notebook 01 established symmetry and Notebook 07 introduced prime-filtered asymmetry.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/thinkthoughts/mod30-residue-lanes/blob/main/notebooks/11_lane_residue_11.ipynb)
+
 Constraint view:
 
 > Window drift turns static lane counts into rolling eight-lane trajectories, revealing how prime-filtered structure changes under shifted observation boundaries.
