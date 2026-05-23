@@ -1,0 +1,29 @@
+{
+  "repo": "mod30-residue-lanes",
+  "notebook": "01_lane_residue_1",
+  "modulus": 30,
+  "target_lane": 1,
+  "target_lane_label": "01",
+  "admissible_residues": [
+    1,
+    7,
+    11,
+    13,
+    17,
+    19,
+    23,
+    29
+  ],
+  "n_max": 3000,
+  "window_size": 300,
+  "total_values": 3000,
+  "admissible_values": 800,
+  "target_lane_values": 100,
+  "target_lane_density_full_interval": 0.03333333333333333,
+  "target_lane_density_admissible": 0.125,
+  "unique_lane01_spacings": [
+    30
+  ],
+  "mean_lane01_spacing": 30.0,
+  "constraint_view": "Lane 01 acts as the anchor lane for comparing admissible modulo-30 structure before prime/composite labeling."
+}
