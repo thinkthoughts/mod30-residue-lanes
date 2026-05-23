@@ -1,0 +1,31 @@
+{
+  "repo": "mod30-residue-lanes",
+  "notebook": "11_lane_residue_11",
+  "title": "Window Drift: Rolling Prime-Lane Trajectories",
+  "modulus": 30,
+  "target_lane": 11,
+  "target_lane_label": "11",
+  "admissible_residues": [
+    1,
+    7,
+    11,
+    13,
+    17,
+    19,
+    23,
+    29
+  ],
+  "n_max": 60000,
+  "window_size": 3000,
+  "step_size": 300,
+  "rolling_windows": 191,
+  "admissible_prime_values": 6054,
+  "target_lane_prime_values": 761,
+  "mean_target_lane_count": 37.54973821989529,
+  "std_target_lane_count": 4.302244322931192,
+  "mean_euclidean_drift": 5.23508428868892,
+  "max_euclidean_drift": 10.862780491200215,
+  "mean_cosine_drift": 0.0012001221958376413,
+  "max_cosine_drift": 0.0031689359400354222,
+  "constraint_view": "Window drift turns static lane counts into rolling eight-lane trajectories, revealing how prime-filtered structure changes under shifted observation boundaries."
+}
