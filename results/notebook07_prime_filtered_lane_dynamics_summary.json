@@ -1,0 +1,32 @@
+{
+  "repo": "mod30-residue-lanes",
+  "notebook": "07_lane_residue_7",
+  "title": "First Asymmetry: Prime-Filtered Lane Dynamics",
+  "modulus": 30,
+  "target_lane": 7,
+  "target_lane_label": "07",
+  "admissible_residues": [
+    1,
+    7,
+    11,
+    13,
+    17,
+    19,
+    23,
+    29
+  ],
+  "n_max": 30000,
+  "window_size": 3000,
+  "total_values": 30000,
+  "admissible_values": 8000,
+  "prime_values": 3245,
+  "admissible_prime_values": 3242,
+  "target_lane_prime_values": 407,
+  "target_lane_prime_density_within_lane": 0.407,
+  "prime_count_mean_across_lanes": 405.25,
+  "prime_count_std_across_lanes": 4.520785330006281,
+  "asymmetry_score_std_over_mean": 0.011155546773612045,
+  "unique_lane07_prime_spacing_count": 11,
+  "mean_lane07_prime_spacing": 73.74384236453201,
+  "constraint_view": "Prime filtering breaks perfect admissible-lane symmetry and reveals lane-local structure beyond the modulo-30 substrate."
+}
