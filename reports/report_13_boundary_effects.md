@@ -2,6 +2,9 @@
 
 Notebook 13 studies lane `13` as a pre-15 boundary lane and compares it against reflected lane `17`.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/thinkthoughts/mod30-residue-lanes/blob/main/notebooks/13_lane_residue_13.ipynb)
+
+
 Constraint view:
 
 > Lane 13 marks a pre-15 boundary position where rolling prime-lane trajectories can be compared against reflected post-15 behavior.
