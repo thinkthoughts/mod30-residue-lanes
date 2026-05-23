@@ -1,3 +1,11 @@
+
+## Notebook 01
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/thinkthoughts/mod30-residue-lanes/blob/main/notebooks/01_lane_residue_1.ipynb)
+
+
+## Notebook 00
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/thinkthoughts/mod30-residue-lanes/blob/main/notebooks/00_mrl_foundations.ipynb)
 # Mod30 Residue Lanes (MRL)
 
 Modulo 30 produces eight admissible residue lanes:
@@ -46,7 +54,3 @@ mod30-residue-lanes/
 ## License
 
 MIT
-#Notebook links
-
-##Notebook 00
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/thinkthoughts/mod30-residue-lanes/blob/main/notebooks/00_mrl_foundations.ipynb)
