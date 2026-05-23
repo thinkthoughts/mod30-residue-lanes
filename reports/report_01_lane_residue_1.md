@@ -2,6 +2,10 @@
 
 Notebook 01 begins lane-specific MRL analysis with residue lane `01`.
 
+## Notebook 01
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/thinkthoughts/mod30-residue-lanes/blob/main/notebooks/01_lane_residue_1.ipynb)
+
 Constraint view:
 
 > Lane 01 acts as the anchor lane for comparing admissible modulo-30 structure before prime/composite labeling.
