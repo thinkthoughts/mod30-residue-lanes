@@ -48,7 +48,7 @@ We construct rolling occupancy vectors, boundary-pressure metrics, spectral deco
 
 ## Figure 1 — The Eight Admissible Residue Lanes
 
-![Figure 1](../figures/notebook01_mod30_residue_cycle.png)
+![Figure 1](../figures/notebook01_admissible_lane_counts.png)
 
 ---
 
