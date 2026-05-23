@@ -1,0 +1,18 @@
+{
+  "repo": "mod30-residue-lanes",
+  "notebook": "29_lane_residue_29",
+  "title": "Sparse Feature Emergence at the Reset Boundary",
+  "num_windows": 3714,
+  "num_sparse_events": 289,
+  "mean_reset_pressure": 0.0504774905375456,
+  "max_reset_pressure": 0.23076923076923078,
+  "mean_boundary_pressure": 0.052320913289507845,
+  "max_boundary_pressure": 0.2653061224489796,
+  "state_counts": {
+    "balanced": 1898,
+    "29-leading": 745,
+    "01-leading": 679,
+    "23-leading": 392
+  },
+  "constraint_view": "Lane 29 is the final admissible residue lane before modulo-30 reset into lane 01."
+}
