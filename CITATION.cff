@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+title: mod30-residue-lanes
+message: "If you use this repository, please cite it."
+authors:
+  - family-names: Hawkley
+    given-names: Dan
+repository-code: "https://github.com/thinkthoughts/mod30-residue-lanes"
+license: MIT

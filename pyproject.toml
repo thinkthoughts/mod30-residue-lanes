@@ -1,0 +1,18 @@
+[project]
+name = "mod30-residue-lanes"
+version = "0.1.0"
+description = "Residue Manifold Learning over mod30 prime residue lanes."
+requires-python = ">=3.10"
+
+authors = [
+  {name="Dan Hawkley"}
+]
+
+dependencies = [
+  "numpy>=1.24",
+  "pandas>=2.0",
+  "matplotlib>=3.7",
+  "scipy>=1.11",
+  "scikit-learn>=1.3",
+  "networkx>=3.1"
+]

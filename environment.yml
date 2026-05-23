@@ -1,0 +1,10 @@
+name: mod30-residue-lanes
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - matplotlib
+  - scipy
+  - scikit-learn
+  - networkx
+  - jupyter
