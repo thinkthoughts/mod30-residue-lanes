@@ -1,0 +1,45 @@
+{
+  "repo": "mod30-residue-lanes",
+  "notebook": "23_lane_residue_23",
+  "title": "Graph Embeddings of Residue-Lane Manifolds",
+  "modulus": 30,
+  "target_lane": 23,
+  "target_lane_label": "23",
+  "admissible_residues": [
+    1,
+    7,
+    11,
+    13,
+    17,
+    19,
+    23,
+    29
+  ],
+  "n_max": 150000,
+  "window_size": 3000,
+  "step_size": 300,
+  "rolling_windows": 491,
+  "graph_nodes": 8,
+  "graph_edges": 28,
+  "mean_edge_weight": 0.8166270246867023,
+  "max_edge_weight": 0.8587055399005019,
+  "min_edge_weight": 0.7742424808759905,
+  "strongest_edge": {
+    "source": "01",
+    "target": "17",
+    "weight": 0.8587055399005019
+  },
+  "target_lane_weighted_degree": 5.741804837250223,
+  "target_lane_strongest_neighbor": "07",
+  "laplacian_eigenvalues": [
+    1.1679594994891497e-15,
+    6.442320560281205,
+    6.477373481228324,
+    6.485209755142162,
+    6.557574812348359,
+    6.567754464903266,
+    6.591839444690646,
+    6.609040863861375
+  ],
+  "constraint_view": "Residue lanes become a graph manifold when rolling prime-lane trajectories define weighted relationships between lanes."
+}
