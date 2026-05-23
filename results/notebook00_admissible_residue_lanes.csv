@@ -1,0 +1,9 @@
+position,is_admissible,gcd_with_30,lane_label
+1,True,1,01
+7,True,1,07
+11,True,1,11
+13,True,1,13
+17,True,1,17
+19,True,1,19
+23,True,1,23
+29,True,1,29

@@ -1,0 +1,31 @@
+{
+  "repo": "mod30-residue-lanes",
+  "notebook": "00_mrl_foundations",
+  "modulus": 30,
+  "admissible_residues": [
+    1,
+    7,
+    11,
+    13,
+    17,
+    19,
+    23,
+    29
+  ],
+  "admissible_count": 8,
+  "residue_spine": "01 \u2192 07 \u2192 11 \u2192 13 \u2192 17 \u2192 19 \u2192 23 \u2192 29",
+  "constraint_view": "MRL studies admissible residue classes as discrete constraint surfaces before prime/composite labeling.",
+  "verification": {
+    "computed_by_gcd": [
+      1,
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29
+    ],
+    "declared_matches_computed": true
+  }
+}
