@@ -1,0 +1,26 @@
+{
+  "repo": "mod30-residue-lanes",
+  "notebook": "19_lane_residue_19",
+  "title": "Temporal Spectral Dynamics of Residue Manifolds",
+  "modulus": 30,
+  "admissible_residues": [
+    1,
+    7,
+    11,
+    13,
+    17,
+    19,
+    23,
+    29
+  ],
+  "n_max": 120000,
+  "window_size": 3000,
+  "step_size": 300,
+  "rolling_windows": 391,
+  "rolling_blocks": 371,
+  "mean_spectral_entropy": 1.342355829689248,
+  "mode1_mean_variance": 0.5338608881732866,
+  "mode2_mean_variance": 0.22963155922935471,
+  "mean_mode1_rotation_deg": 9.814923621914733,
+  "mean_mode2_rotation_deg": 18.87546105506489
+}
