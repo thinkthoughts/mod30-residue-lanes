@@ -2,6 +2,8 @@
 
 Notebook 17 treats lane `17` as the post-15 reflected lane and decomposes rolling prime-lane vectors into covariance and spectral modes.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/thinkthoughts/mod30-residue-lanes/blob/main/notebooks/17_lane_residue_17.ipynb)
+
 Constraint view:
 
 > Lane 17 anchors the reflected side of the mod30 residue manifold, where rolling prime-lane trajectories can be decomposed into shared modes, reflected modes, and local deviations.
