@@ -1,8 +1,8 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/thinkthoughts/mod30-residue-lanes/blob/main/notebooks/00_mrl_foundations.ipynb)
-
 # Report 00 — MRL Foundations
 
 Modulo 30 defines eight admissible residue lanes before prime classification:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/thinkthoughts/mod30-residue-lanes/blob/main/notebooks/00_mrl_foundations.ipynb)
 
 ```text
 01 → 07 → 11 → 13 → 17 → 19 → 23 → 29
