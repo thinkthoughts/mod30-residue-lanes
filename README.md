@@ -1,3 +1,7 @@
+## Notebook 23
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/thinkthoughts/mod30-residue-lanes/blob/main/notebooks/23_lane_residue_23.ipynb)
+
 ## Notebook 19
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/thinkthoughts/mod30-residue-lanes/blob/main/notebooks/19_lane_residue_19.ipynb)
